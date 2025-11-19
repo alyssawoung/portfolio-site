@@ -9,7 +9,7 @@
 <body>
 
 <header>
-  <span class="logo-text">My Portfolio</span></div>
+  <span class="logo-text">My Portfolio</span>
   <nav>
     <a href="#home">Home</a>
     <a href="#projects">Projects</a>
@@ -19,7 +19,7 @@
 
 <section id="home" class="hero">
   <h1>Welcome to My Portfolio</h1>
-  <p>Get to know me and my work!.</p>
+  <p>Get to know me and my work!</p>
 </section>
 
 <section id="projects">
@@ -31,7 +31,6 @@
 
   <div class="projects-grid" id="projectGrid">
 
-    
     <div class="project-card" data-title="Analytics Dashboard" onclick="openModal('Analytics Dashboard','Data visualization dashboard with charts.','https://example.com/dashboard')">
       <h3><span class="star">★</span> Analytics Dashboard</h3>
       <p>Charts, data, and insights.</p>
@@ -47,7 +46,7 @@
       <p>Environmental research + data insights.</p>
     </div>
 
-    <div class="project-card" data-title="Leaflet Mapping in R" onclick="openModal('Leaflet Mapping in R','An interactive mapping project created in R using the Leaflet package. (Requires local file access)','file:///C:/Users/alyss/Downloads/Leaflet%20Package%20in%20R%20(2).pdf')">
+    <div class="project-card" data-title="Leaflet Mapping in R" onclick="openModal('Leaflet Mapping in R','An interactive mapping project created in R using the Leaflet package.','assets/LeafletMapping.pdf')">
       <h3><span class="star">★</span> Leaflet Mapping in R</h3>
       <p>PDF: Interactive map created in R.</p>
     </div>
@@ -56,22 +55,3 @@
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <p>Email: <span class="contact-info">alyssajwoung@gmail.com</span></p>
-  <p>Phone: <span class="contact-info">234-214-2698</span></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/alysswoung" target="_blank" class="contact-info">linkedin.com/in/alysswoung</a></p>
-</section>
-
-<!-- Modal -->
-<div class="modal-bg" id="modalBg">
-  <div class="modal">
-    <span class="close-btn" onclick="closeModal()">X</span>
-    <h2 id="modalTitle"></h2>
-    <p id="modalDesc"></p>
-    <a id="modalLink" href="#" target="_blank">Visit Project →</a>
-  </div>
-</div>
-
-<script src="script.js"></script>
-</body>
-</html>
